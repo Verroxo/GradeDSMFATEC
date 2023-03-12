@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engenharia de Software I</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+
+</head>
+<br>
+<h4>Esse site foi desenvolvido por César Rodrigues, no curso de DSM, feito dia 04/03/2023</h4>
+<br>
+<hr>
+
+<div class="logo">
+    <img src="fatecreal.png" width="200px" height="100px">
+</div>
+
+<body>
+
+
+    <div class="textogrande">
+        <h1>0000 ENGENHARIA DE SOFTWARE I PRESENCIAL - 80 Aulas</h1>
+    </div>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Competências Profissionais desenvolvidas neste componente
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <ul>- Especificar os requisitos, projetar e documentar soluções de software baseadas no
+                        conhecimento apropriado de teorias, modelos e técnicas, observando as necessidades dos
+                        projetos.</ul>
+                    <ul>- Modelar e implantar processos de negócio, propor soluções de TI a fim de aumentar a
+                        competitividade das organizações </ul>
+                </td>
+            </tr>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">Competências Socioemocionais
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <ul></ul>
+
+                            <ul>- Atuar com liderança em função dos contextos do trabalho </ul>
+                            <ul> - Atuar de forma colaborativa quando do trabalho em equipe.</ul>
+                            <ul>- Contribuir para o alcance de objetivos comuns. </ul>
+                            <ul>- Demonstrar capacidade de adotar em tempo hábil a solução mais adequada entre possíveis
+                                alternativas. </ul>
+                            <ul>- Demonstrar habilidade para escutar atentamente seu interlocutor</ul>
+                            <ul>- Evidenciar desinibição e desprendimento para lidar com pessoas de cargos superiores.
+                            </ul>
+
+                </tbody>
+            </table>
+
+
+            <strong>
+                <h3>Objetivos de aprendizagem:</h3>
+            </strong>
+            <li>Identificar as características de Sistemas de Informação, seus tipos, viabilidade
+                técnica, características de custo, valor e qualidade da informação.
+            </li>
+            <li>Explicar as características de um sistema, seus componentes e
+                relacionamentos.</li>
+
+            <li>Compreender o ciclo de vida utilizando concepções do modelo cascata.</li>
+            <li>Utilizar conceitos da UML na análise de requisitos e na elaboração de
+                diagramas focando na modelagem de sistemas. </li>
+            <hr>
+
+            <strong>Ementa:</strong>
+            <p> : Introdução à Análise de Sistemas. Modelos de Ciclo de Vida de Software.
+                Modelos de Processos de Desenvolvimento de Software (Modelo em Cascata, Espiral
+                e Prototipagem). Definição e classificação de Requisitos de Software (funcionais e não
+                funcionais). Técnicas de Levantamento de Requisitos. Modelo de Negócios aplicado
+                ao levantamento de Requisitos (Canvas). Estudo de Viabilidade. Técnicas de
+                documentação. Metodologias para desenvolvimento de sistemas. </p>
+
+            <strong>Metodologia proposta:</strong>
+            <p>Aulas Expositivas. Aprendizagem Baseada em
+                Projetos/Problemas. Sala de Aula Invertida. Estudo de Caso Real. Nesta disciplina o
+                professor é responsável por desenvolver um projeto Interdisciplinar integrando as
+                disciplinas de Desenvolvimento Web I e Design Digital, seguindo o Manual de Projetos
+                Interdisciplinares expedido pela CESU. </p>
+
+            <strong>Instrumentos de Avaliação</strong>
+
+            <p>Avaliação Formativa: Exercícios para prática. Análise e Resolução de Problemas
+                acompanhado de rubrica de avaliação. Análise da documentação do projeto
+                interdisciplinar.
+                Avaliação Somativa: Provas. Projetos. Avaliação em pares e Trabalhos
+                Interdisciplinares. Validação do projeto para inclusão no Portfólio Digital do aluno.</p>
+
+            <strong>Bibliografia Básica:</strong>
+            <p> BEZERRA, Eduardo. Princípios de Análise e Projeto de Sistemas com UML. 3 ed.
+                Rio de Janeiro: Elsevier, 2015.
+                PRESSMAN, Roger; MAXIM, Bruce. Engenharia de Software. 8 ed. São Paulo:
+                McGraw Hill Brasil, 2016.
+                SOMMERVILLE, Ian. Engenharia De Software. 10 ed. São Paulo: Pearson Brasil,
+                2019. </p>
+            <strong>Bibliografia Complementar:</strong>
+            <p>GOMES, A. L. XHTML/CSS: criação de páginas web (Informática). São
+                Paulo: Editora
+                Senac, 2019.
+                QUIERELLI, D. A. Criando sites com HTML-CSS-PHP: Construindo um projeto -
+                Iniciante. Joinville: Clube dos Autores, 2012.
+                TITTEL, E., NOBLE, J. HTML, XHTML e CSS Para Leigos. Rio de Janeiro: Alta
+                Books, 2014</p>
+            <strong>Referência:</strong>
+            <p>LARMAN, Craig. Utilizando UML e padrões. 3 ed. Porto Alegre: Bookman, 2007.
+                REZENDE, Denis Alcides. Engenharia de software e sistemas de informação. 3
+                ed. Rio de Janeiro: Brasport, 2005.
+                WASLAWICK Raul. Análise e Projeto de Sistemas de Informação Orientados a
+                Objetos. 2 ed. Rio de Janeiro: Elsevier, 2010.</p></a>
+
+            <hr width="50%">
+            <a href="sos1.html">Acessar outro HTML</a>
+            <br>
+
+
+            <script>
+                $(document).ready(function(){
+                  $('a[href^="#"]').on('click',function (e) {
+                      e.preventDefault();
+              
+                      var target = this.hash;
+                      var $target = $(target);
+              
+                      $('html, body').stop().animate({
+                          'scrollTop': $target.offset().top
+                      }, 900, 'swing', function () {
+                          window.location.hash = target;
+                      });
+                  });
+                });
+              </script>
+
+</body>
+
+</html>
+
+</body>
+
+</html>

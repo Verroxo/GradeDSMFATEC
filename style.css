@@ -1,0 +1,140 @@
+* {
+
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.intro h2 {
+
+    text-align: center;
+    font-size: 15px;
+}
+
+.logo img {
+
+    text-align: center;
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid black;
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: #F8CECC;
+    color: #8B0000;
+
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+td[colspan="5"] {
+    font-weight: bold;
+    text-align: right;
+    border-top: 2px solid #000;
+}
+
+td[colspan="4"] {
+    text-align: right;
+}
+
+td[colspan="4"]:last-child {
+    font-weight: bold;
+}
+
+caption {
+    border: 10px;
+    margin: 10px;
+    font-size: 25px;
+    text-decoration: underline;
+
+}
+
+.tabela2 {
+    width: 50%;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.hr1 hr {
+    margin: 5px;
+    padding: 5px;
+}
+
+.tabela-pequena {
+    width: 50%;
+    font-size: 14px;
+}
+
+.tabela-pequena th,
+.tabela-pequena td {
+    padding: 5px;
+    text-align: center;
+    margin: auto 0;
+}
+
+.tabela2 {
+    border: 1px solid black;
+}
+
+.tabela2 table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabela2 th,
+.tabela2 {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.mid {
+
+    text-align: center;
+}
+
+li {
+    text-align: left;
+}
+
+p {
+
+    text-align: left;
+
+}
+
+.textogrande {
+
+    font-size: 10px;
+
+}
+
+html {
+    scroll-behavior: smooth;
+  }
